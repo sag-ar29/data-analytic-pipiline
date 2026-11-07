@@ -1,0 +1,11 @@
+transaction_id,user_id,amount,category,status,timestamp
+TX1001,U101,250.50,Electronics,completed,2026-03-01 10:15:00
+TX1002,U102,15.20,Groceries,completed,2026-03-01 11:00:00
+TX1003,U101,-50.00,Refund,refunded,2026-03-01 12:30:00
+TX1004,U103,1200.00,Travel,completed,2026-03-02 09:20:00
+TX1005,,45.00,Groceries,failed,2026-03-02 10:00:00
+TX1006,U104,89.99,Fashion,completed,2026-03-02 14:45:00
+TX1007,U102,300.00,Electronics,completed,2026-03-03 16:10:00
+TX1008,U105,450.00,Travel,pending,2026-03-03 17:00:00
+TX1009,U101,85.00,Dining,completed,2026-03-04 19:30:00
+TX1010,U103,95.50,Dining,completed,2026-03-04 20:15:00
