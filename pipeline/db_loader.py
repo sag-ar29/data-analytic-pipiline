@@ -8,3 +8,4 @@ def load_to_database(df: pd.DataFrame, table_name: str, db_url: str = "sqlite://
     engine = create_engine(db_url)
     df.to_sql(table_name, con=engine, if_exists="replace", index=False)
     return len(df)
+

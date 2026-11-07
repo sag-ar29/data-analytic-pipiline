@@ -46,3 +46,4 @@ def generate_user_analytics(df: pd.DataFrame) -> pd.DataFrame:
     
     analytics['avg_transaction_value'] = analytics['avg_transaction_value'].round(2)
     return analytics
+
