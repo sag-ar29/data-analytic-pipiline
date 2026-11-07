@@ -72,3 +72,10 @@ auth_token*
 .zsh_history
 .python_history
 
+# --- Python Bytecode & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+
