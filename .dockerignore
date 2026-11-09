@@ -1,0 +1,21 @@
+# Environment variables & secrets (keep .env decoupled from image)
+.env
+.env.*
+*.env
+
+# Git & repo metadata
+.git
+.gitignore
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Local databases & logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+

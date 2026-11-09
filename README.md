@@ -13,7 +13,21 @@ A Python data processing service utilizing **Pandas**, **NumPy**, and **SQLAlche
 # 1. Install dependencies
 pip install -r requirements.txt
 
-# 2. Execute pipeline
+# 2. (Optional) Set up environment variables
+cp .env.example .env
+
+# 3. Execute pipeline
 python main.py
 ```
+
+## How to Run with Docker
+
+```bash
+# Build the container image
+docker build -t data-analytics-pipeline .
+
+# Run the container
+docker run --rm data-analytics-pipeline
+```
+
 
